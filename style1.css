@@ -54,10 +54,19 @@ nav{
 	padding-left: 8%;
 	padding-right: 8%;
 }
-.navbar{
-	height:12%;
-	display:flex;
-	align-items:center;
+.menu-bar{
+	background: none;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin:15px;
+	padding: 15px;
 }
 .logo {
 	width: 80px;
@@ -66,22 +75,119 @@ nav{
 span{
 	color: #0081C9;
 }
-nav ul li{
-	list-style-type: none;
-	display: inline-block;
-	padding: 10px  25px;
-	margin:0;
-}
-nav ul li a{
+.menu-bar ul li a{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
-
 }
-nav ul li a:hover{
+.active, .menu-bar ul li:hover{
+    background: none;
+    border-radius: 3px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: rgb(0, 100, 0, 0.5);
+	margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px outset #fff;
+	background: transparent;
+	border-radius: 10px;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #b2ff00;
+}
+.menu-bar ul li:hover{
+	background: none;
+}
+.menu-bar ul li a:hover{
 	color: #2C74B3;
 	transition: .4s;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	border-style: ;
+	border-color: #2C74B3;
+	border-bottom-color: #144272;
+	border-right-color: #144272;
+    border-radius: 10px;
+	background: rgb(42,42,42, 0.8);
+	margin-top: 15px;
+    margin-left: -38px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #2883bb;
+}
+.sub-menu-2{
+    display: none;
+}
+.sub-menu-3{
+    display: none;
+}
+.sub-menu-4{
+    display: none;
+}
+.sub-menu-5{
+    display: none;
+
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-left: 140px;
+    background: rgb(54,54,54, 1);	
+}
+.hover-me:hover .sub-menu-3
+{
+    position: absolute;
+    display: block;
+    border-style: ;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-left: 140px;
+     background: rgb(54,54,54, 1);		
+}
+.hover-me:hover .sub-menu-4
+{
+    position: absolute;
+    display: block;
+    border-style: ;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-left: 140px;
+     background: rgb(54,54,54, 1);		
+}
+.hover-me:hover .sub-menu-5
+{
+    position: absolute;
+    display: block;
+    border-style: ;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-left: 140px;
+     background: rgb(54,54,54, 1);		
+}
+.fa-angle-right{
+    float: right;
+    color: white;
 }
 .menu-icon{
 	width: 30px;
@@ -204,7 +310,7 @@ button:hover{
 	cursor: pointer;
 }
 .service{
-	background: #000000;
+	background: #101010;
 	width: 100%;
 	padding: 20px 0px;
 }
@@ -1273,17 +1379,17 @@ ul li {
 .about1{
 	width: 100%;
 	padding: 5px 0px;
-	background-color: #000000;
+	background-color: #101010;
 }
 .about2{
 	width: 100%;
 	padding: 5px 0px;
-	background-color: #000000;
+	background-color: #101010;
 }
 .about3{
 	width: 100%;
 	padding: 5px 0px;
-	background-color: #000000;
+	background-color: #101010;
 }
 .contact-me{
 	width: 100%;
