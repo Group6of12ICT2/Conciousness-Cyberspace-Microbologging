@@ -125,12 +125,15 @@ span{
 	border-bottom-color: #144272;
 	border-right-color: #144272;
     border-radius: 10px;
-	background: rgb(42,42,42, 0.8);
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
 	margin-top: 15px;
     margin-left: -38px;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
-	color: #2883bb;
+	color: rgb(54,54,54, 1);
 }
 .sub-menu-2{
     display: none;
