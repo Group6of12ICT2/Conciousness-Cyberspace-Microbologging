@@ -124,16 +124,15 @@ span{
 	border-color: #2C74B3;
 	border-bottom-color: #144272;
 	border-right-color: #144272;
-    border-radius: 10px;
-    background-color: rgba(255,255,255,0.13);
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
-	margin-top: 15px;
-    margin-left: -38px;
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+        border-radius: 10px;
+        background: rgb(25,25,25, .7);
+        backdrop-filter: blur(10px);
+    	margin-top: 15px;
+        margin-left: -38px;
+        box-shadow: 0 0 40px rgba(255,255,255,0.1);	
 }
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
-	color: rgb(54,54,54, 1);
+	color: #2883bb;
 }
 .sub-menu-2{
     display: none;
@@ -152,31 +151,35 @@ span{
 {
     position: absolute;
     display: block;
-    
     border-radius: 10px;
     margin-top: -10px;
     margin-left: 140px;
-    background: rgb(54,54,54, 1);	
+    background: rgb(25,25,25, .9);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);	
+    backdrop-filter: blur(10px);
+	
 }
 .hover-me:hover .sub-menu-3
 {
     position: absolute;
     display: block;
-    border-style: ;
     border-radius: 10px;
     margin-top: -10px;
     margin-left: 140px;
-     background: rgb(54,54,54, 1);		
+    background: rgb(25,25,25, .9);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);	
+    backdrop-filter: blur(10px);		
 }
 .hover-me:hover .sub-menu-4
 {
     position: absolute;
     display: block;
-    border-style: ;
     border-radius: 10px;
     margin-top: -10px;
     margin-left: 140px;
-     background: rgb(54,54,54, 1);		
+    background: rgb(25,25,25, .9);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);	
+    backdrop-filter: blur(10px);	
 }
 .hover-me:hover .sub-menu-5
 {
@@ -184,9 +187,9 @@ span{
     display: block;
     border-style: ;
     border-radius: 10px;
-    margin-top: -10px;
-    margin-left: 140px;
-     background: rgb(54,54,54, 1);		
+    background: rgb(25,25,25, .9);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);	
+    backdrop-filter: blur(10px);		
 }
 .fa-angle-right{
     float: right;
